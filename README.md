@@ -54,7 +54,7 @@ This notebook includes the standard steps for a project like this:
     <img src="https://github.com/cualum/Shinkansen-Experience/assets/137105371/4cb71d68-91e4-428f-9a5e-65d9fedd5fca" width="600">
    </div>
 
-
+From these plots, the relative importance of each feature can be ascertained and will be discussed next.
 
    
 
