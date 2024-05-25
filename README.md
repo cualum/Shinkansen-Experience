@@ -35,10 +35,23 @@ This notebook includes the standard steps for a project like this:
     <img src="https://github.com/cualum/Shinkansen-Experience/assets/137105371/b39dd856-b78d-4e42-99e9-48cf325dd49c" width="600">
    </div>
 
-7) Finally Obserations:  The main goal of this project was to evaluate which aspects of the trip on the bullet train had the most influence on the customer satisfaction.  To this end, 'feature importance' graphs were produced to evaluate their relative importance.  For example, from the random forest
+7) Finally Obserations:  The main goal of this project was to evaluate which aspects of the trip on the bullet train had the most influence on the customer satisfaction.  To this end, 'feature importance' graphs were produced to evaluate their relative importance.  Results from each of the models are show below
+   - Random Forest
    <div style="text-align: center;">
     <img src="https://github.com/cualum/Shinkansen-Experience/assets/137105371/8334f4d4-9f69-49e0-a28a-7c0f2e01543a" width="600">
    </div>
+
+   - XGBoost
+   <div style="text-align: center;">
+    <img src="https://github.com/cualum/Shinkansen-Experience/assets/137105371/3df4a31f-25cf-4489-aa30-7602d416e5a5" width="600">
+   </div>
+
+   - Logistic Regression
+   <div style="text-align: center;">
+    <img src="https://github.com/cualum/Shinkansen-Experience/assets/137105371/4cb71d68-91e4-428f-9a5e-65d9fedd5fca" width="600">
+   </div>
+
+
 
    
 
