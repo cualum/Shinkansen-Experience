@@ -1,4 +1,7 @@
-This is the result of the final project for a machine learning course I took at the University of Colorado - Boulder.  
+This is the result of the final project for a machine learning course I took at the University of Colorado - Boulder.  In this project, I will analyze a dataset concerning the Shinkansen Bullet Train in Japan. The data consists of a survey of passengers on the train along with details about the type of passenger and travel (data to be described below). The passengers ranked several aspects of their travel on a scale and also indicated their overall experience as 0 (bad) or 1 (good). The goal is to predict their experience based on their rankings of travel details and use this prediction to improve service.
+
+![image](https://github.com/cualum/Shinkansen-Experience/assets/137105371/f48920e0-6a56-447c-bbeb-7e7b5d655e7f)
+
 
 
 This notebook includes the standard steps for a project like this:
