@@ -5,12 +5,11 @@ This is the result of the final project for a machine learning course I took at 
 2) Data Preporcessing:  This dataset required little in the way of preprocessing.  It did contain categorical variables which have a natural ordering.  These were rankings like 'poor' and 'excellent'.  These categorical variables were mapped to ordinals using a a method defined in the class described in (1).  This allows for better visualization modeling. Imputation of missing data was deferred to the modeling section to automated techniques could be used.
 3) Data Engineering:  In this section, variables were systematically eliminated.  First variables were eliminated with high multicolinearity by retaining variables with a variance-inflation-factor (VIF) of less than 5.  Typically this would be followed by eliminating variables with high p-value which indicates the variable may not be statistically significant. Rule of thumb is to eliminate variables with p-values greater than 0.5.   The Statsmodels package is particularly convenient for this.
 4) Model selection and training:  Several models were evaluated to compare there relative advantages in this work (randomforrest, XGBoost, and logistic regression).  The data will be preparred in the following manner:
-
-    a) Numerical missing data will be imputed using IterativeImputer with the KNeighborsRegressor as the estimator
-    b) Categorical missing data will be imputed using SimpleImputer with 'most_frequent' as the strategy
-    c) Numerical data will be scaled with RobustScaler
-    d) Ordinal categorical data will be encoded with OrdinalEncoder
-    e) Nominal categorical data will be encoded with OneHotEncoder
+   a) Numerical missing data will be imputed using IterativeImputer with the KNeighborsRegressor as the estimator
+   b) Categorical missing data will be imputed using SimpleImputer with 'most_frequent' as the strategy
+   c) Numerical data will be scaled with RobustScaler
+   d) Ordinal categorical data will be encoded with OrdinalEncoder
+   e) Nominal categorical data will be encoded with OneHotEncoder
 
    The flow if this preparation will be automated using a combination of ColumnTransformer and Pipeline from the Scikit-learn library.  Finally the data preparation and modeling will be automated using PipeLine.  The best hyperparameters will be found using GridSearchCV with KFolds defining the splits.  Example of workflow is given below. The data imputation, scaling, and encoding will be handled at each GridSearch fold seperately thereby avoiding data leakage.
    ![workflow](https://github.com/cualum/Shinkansen-Experience/assets/137105371/2a64b13f-4b60-4461-af5a-d3bf608fc739)
