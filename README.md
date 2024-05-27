@@ -1,14 +1,16 @@
-# Enhancing Passenger Satisfaction on the Shinkansen Bullet Train: Insights and Recommendations
+# Final Project Report: Enhancing Passenger Experience on the Shinkansen Bullet Train
+
+*Prepared for: Machine Learning Course, University of Colorado - Boulder*
 
 ## Introduction
 
-This is the result of the final project for a machine learning course I took at the University of Colorado - Boulder.  In this project, I will analyze a dataset concerning the Shinkansen Bullet Train in Japan. The data consists of a survey of passengers on the train along with details about the type of passenger and travel (data to be described below). The passengers ranked several aspects of their travel on a scale and also indicated their overall experience as 0 (bad) or 1 (good). The goal is to predict their experience based on their rankings of travel details and use this prediction to improve service.
+The Shinkansen Bullet Train in Japan aims to provide passengers with a seamless and satisfying travel experience. In this final project, we analyze a comprehensive dataset collected from passenger surveys to gain insights into passenger preferences and predict their overall experience. By leveraging machine learning techniques, we seek to identify key areas for improvement to enhance service quality.
 
 ![image](https://github.com/cualum/Shinkansen-Experience/assets/137105371/f48920e0-6a56-447c-bbeb-7e7b5d655e7f)
 
 ## 1. Exploratory Data Analysis (EDA)
+We initiated our analysis with thorough Exploratory Data Analysis (EDA) to understand the dataset's characteristics and potential correlations. Utilizing custom visualization techniques, including histograms and scatter plots, we gained valuable insights into the distribution of data and possible relationships between variables.
 
-We began with EDA, utilizing a custom class to facilitate data loading, visualization, and train/test split. Visualizations such as histograms and scatter plots provided insights into the data distribution and potential correlations.
 Example:
    <div style="text-align: center;">
     <img src="https://github.com/cualum/Shinkansen-Experience/assets/137105371/98f6a9c7-fabb-423d-ac76-cfe0ce8d3de8" width="600">
